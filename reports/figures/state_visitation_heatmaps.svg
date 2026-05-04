@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="500" viewBox="0 0 1188 500">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.grid{stroke:#555;stroke-width:0.7}.wall{fill:#111}.goal{fill:#36c36b;stroke:#111;stroke-width:1}</style>
+<text x="594.0" y="36" text-anchor="middle" font-size="24">State Visitation Heatmaps over 100 Episodes</text>
+<text x="222.0" y="66" text-anchor="middle" font-size="17">Random: success=0.04, length=99.1</text>
+<rect class="grid" x="54" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="138" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="180" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="222" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="264" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="306" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="348" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="130" width="42" height="42" fill="#bfa9cc"/>
+<text x="117.0" y="155.0" text-anchor="middle" font-size="9">2592</text>
+<rect class="grid" x="138" y="130" width="42" height="42" fill="#dbcfe1"/>
+<text x="159.0" y="155.0" text-anchor="middle" font-size="9">1307</text>
+<rect class="grid" x="180" y="130" width="42" height="42" fill="#e9e3ec"/>
+<text x="201.0" y="155.0" text-anchor="middle" font-size="10">641</text>
+<rect class="grid" x="222" y="130" width="42" height="42" fill="#f0edf1"/>
+<text x="243.0" y="155.0" text-anchor="middle" font-size="10">319</text>
+<rect class="grid" x="264" y="130" width="42" height="42" fill="#f3f2f4"/>
+<text x="285.0" y="155.0" text-anchor="middle" font-size="10">162</text>
+<rect class="grid" x="306" y="130" width="42" height="42" fill="#efecf1"/>
+<text x="327.0" y="155.0" text-anchor="middle" font-size="10">354</text>
+<rect class="grid" x="348" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="172" width="42" height="42" fill="#dfd6e5"/>
+<text x="117.0" y="197.0" text-anchor="middle" font-size="9">1092</text>
+<rect class="grid" x="138" y="172" width="42" height="42" fill="#edeaef"/>
+<text x="159.0" y="197.0" text-anchor="middle" font-size="10">428</text>
+<rect class="grid" x="180" y="172" width="42" height="42" fill="#f1eff3"/>
+<text x="201.0" y="197.0" text-anchor="middle" font-size="10">235</text>
+<rect class="grid" x="222" y="172" width="42" height="42" fill="#f4f4f5"/>
+<text x="243.0" y="197.0" text-anchor="middle" font-size="10">94</text>
+<rect class="grid" x="264" y="172" width="42" height="42" fill="#f5f5f5"/>
+<text x="285.0" y="197.0" text-anchor="middle" font-size="10">64</text>
+<rect class="grid" x="306" y="172" width="42" height="42" fill="#f4f3f4"/>
+<text x="327.0" y="197.0" text-anchor="middle" font-size="10">127</text>
+<rect class="grid" x="348" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="214" width="42" height="42" fill="#efecf1"/>
+<text x="117.0" y="239.0" text-anchor="middle" font-size="10">345</text>
+<rect class="grid" x="138" y="214" width="42" height="42" fill="#efecf1"/>
+<text x="159.0" y="239.0" text-anchor="middle" font-size="10">356</text>
+<rect class="grid" x="180" y="214" width="42" height="42" fill="#f3f2f4"/>
+<text x="201.0" y="239.0" text-anchor="middle" font-size="10">166</text>
+<rect class="grid" x="222" y="214" width="42" height="42" fill="#f4f3f5"/>
+<text x="243.0" y="239.0" text-anchor="middle" font-size="10">103</text>
+<rect class="grid" x="264" y="214" width="42" height="42" fill="#f5f5f6"/>
+<text x="285.0" y="239.0" text-anchor="middle" font-size="10">48</text>
+<rect class="grid" x="306" y="214" width="42" height="42" fill="#f6f5f6"/>
+<text x="327.0" y="239.0" text-anchor="middle" font-size="10">45</text>
+<rect class="grid" x="348" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="256" width="42" height="42" fill="#f1eff2"/>
+<text x="117.0" y="281.0" text-anchor="middle" font-size="10">261</text>
+<rect class="grid" x="138" y="256" width="42" height="42" fill="#f3f1f4"/>
+<text x="159.0" y="281.0" text-anchor="middle" font-size="10">179</text>
+<rect class="grid" x="180" y="256" width="42" height="42" fill="#f4f3f5"/>
+<text x="201.0" y="281.0" text-anchor="middle" font-size="10">102</text>
+<rect class="grid" x="222" y="256" width="42" height="42" fill="#f5f5f6"/>
+<text x="243.0" y="281.0" text-anchor="middle" font-size="10">58</text>
+<rect class="grid" x="264" y="256" width="42" height="42" fill="#f6f5f6"/>
+<text x="285.0" y="281.0" text-anchor="middle" font-size="10">45</text>
+<rect class="grid" x="306" y="256" width="42" height="42" fill="#f6f5f6"/>
+<text x="327.0" y="281.0" text-anchor="middle" font-size="10">43</text>
+<rect class="grid" x="348" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="298" width="42" height="42" fill="#f3f1f4"/>
+<text x="117.0" y="323.0" text-anchor="middle" font-size="10">171</text>
+<rect class="grid" x="138" y="298" width="42" height="42" fill="#f4f3f4"/>
+<text x="159.0" y="323.0" text-anchor="middle" font-size="10">126</text>
+<rect class="grid" x="180" y="298" width="42" height="42" fill="#f5f4f5"/>
+<text x="201.0" y="323.0" text-anchor="middle" font-size="10">73</text>
+<rect class="grid" x="222" y="298" width="42" height="42" fill="#f6f6f6"/>
+<text x="243.0" y="323.0" text-anchor="middle" font-size="10">31</text>
+<rect class="grid" x="264" y="298" width="42" height="42" fill="#f6f6f6"/>
+<text x="285.0" y="323.0" text-anchor="middle" font-size="10">18</text>
+<rect class="grid" x="306" y="298" width="42" height="42" fill="#f5f4f5"/>
+<text x="327.0" y="323.0" text-anchor="middle" font-size="10">76</text>
+<rect class="grid" x="348" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="340" width="42" height="42" fill="#f3f2f4"/>
+<text x="117.0" y="365.0" text-anchor="middle" font-size="10">151</text>
+<rect class="grid" x="138" y="340" width="42" height="42" fill="#f5f4f5"/>
+<text x="159.0" y="365.0" text-anchor="middle" font-size="10">74</text>
+<rect class="grid" x="180" y="340" width="42" height="42" fill="#f5f5f5"/>
+<text x="201.0" y="365.0" text-anchor="middle" font-size="10">63</text>
+<rect class="grid" x="222" y="340" width="42" height="42" fill="#f6f6f6"/>
+<text x="243.0" y="365.0" text-anchor="middle" font-size="10">27</text>
+<rect class="grid" x="264" y="340" width="42" height="42" fill="#f6f6f6"/>
+<text x="285.0" y="365.0" text-anchor="middle" font-size="10">26</text>
+<rect class="grid" x="306" y="340" width="42" height="42" fill="#38d65a"/>
+<rect class="grid" x="348" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="54" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="96" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="138" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="180" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="222" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="264" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="306" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="348" y="382" width="42" height="42" fill="#111111"/>
+<text x="327.0" y="366.0" text-anchor="middle" font-size="11">Goal</text>
+<text x="594.0" y="66" text-anchor="middle" font-size="17">WM-MPC-H7: success=0.29, length=90.5</text>
+<rect class="grid" x="426" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="510" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="552" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="594" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="636" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="678" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="720" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="130" width="42" height="42" fill="#e6dfea"/>
+<text x="489.0" y="155.0" text-anchor="middle" font-size="10">772</text>
+<rect class="grid" x="510" y="130" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="552" y="130" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="594" y="130" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="636" y="130" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="678" y="130" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="720" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="172" width="42" height="42" fill="#f0eef2"/>
+<text x="489.0" y="197.0" text-anchor="middle" font-size="10">284</text>
+<rect class="grid" x="510" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="552" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="594" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="636" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="678" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="720" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="214" width="42" height="42" fill="#f2f1f3"/>
+<text x="489.0" y="239.0" text-anchor="middle" font-size="10">198</text>
+<rect class="grid" x="510" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="552" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="594" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="636" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="678" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="720" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="256" width="42" height="42" fill="#efecf1"/>
+<text x="489.0" y="281.0" text-anchor="middle" font-size="10">336</text>
+<rect class="grid" x="510" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="552" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="594" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="636" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="678" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="720" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="298" width="42" height="42" fill="#612584"/>
+<text x="489.0" y="323.0" text-anchor="middle" font-size="9">7005</text>
+<rect class="grid" x="510" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="552" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="594" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="636" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="678" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="720" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="340" width="42" height="42" fill="#eeebf0"/>
+<text x="489.0" y="365.0" text-anchor="middle" font-size="10">396</text>
+<rect class="grid" x="510" y="340" width="42" height="42" fill="#f6f5f6"/>
+<text x="531.0" y="365.0" text-anchor="middle" font-size="10">46</text>
+<rect class="grid" x="552" y="340" width="42" height="42" fill="#f6f6f6"/>
+<text x="573.0" y="365.0" text-anchor="middle" font-size="10">30</text>
+<rect class="grid" x="594" y="340" width="42" height="42" fill="#f6f6f6"/>
+<text x="615.0" y="365.0" text-anchor="middle" font-size="10">29</text>
+<rect class="grid" x="636" y="340" width="42" height="42" fill="#f6f6f6"/>
+<text x="657.0" y="365.0" text-anchor="middle" font-size="10">29</text>
+<rect class="grid" x="678" y="340" width="42" height="42" fill="#38d65a"/>
+<rect class="grid" x="720" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="426" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="468" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="510" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="552" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="594" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="636" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="678" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="720" y="382" width="42" height="42" fill="#111111"/>
+<text x="699.0" y="366.0" text-anchor="middle" font-size="11">Goal</text>
+<text x="966.0" y="66" text-anchor="middle" font-size="17">PPO: success=1.00, length=11.0</text>
+<rect class="grid" x="798" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="882" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="924" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="966" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1008" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1050" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1092" y="88" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="130" width="42" height="42" fill="#f4f4f5"/>
+<text x="861.0" y="155.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="882" y="130" width="42" height="42" fill="#f4f4f5"/>
+<text x="903.0" y="155.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="924" y="130" width="42" height="42" fill="#f4f4f5"/>
+<text x="945.0" y="155.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="966" y="130" width="42" height="42" fill="#f4f4f5"/>
+<text x="987.0" y="155.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1008" y="130" width="42" height="42" fill="#f4f4f5"/>
+<text x="1029.0" y="155.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1050" y="130" width="42" height="42" fill="#f2f1f3"/>
+<text x="1071.0" y="155.0" text-anchor="middle" font-size="10">200</text>
+<rect class="grid" x="1092" y="130" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="882" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="924" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="966" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1008" y="172" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1050" y="172" width="42" height="42" fill="#f4f4f5"/>
+<text x="1071.0" y="197.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1092" y="172" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="882" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="924" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="966" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1008" y="214" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1050" y="214" width="42" height="42" fill="#f4f4f5"/>
+<text x="1071.0" y="239.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1092" y="214" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="882" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="924" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="966" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1008" y="256" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1050" y="256" width="42" height="42" fill="#f4f4f5"/>
+<text x="1071.0" y="281.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1092" y="256" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="882" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="924" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="966" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1008" y="298" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1050" y="298" width="42" height="42" fill="#f4f4f5"/>
+<text x="1071.0" y="323.0" text-anchor="middle" font-size="10">100</text>
+<rect class="grid" x="1092" y="298" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="340" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="882" y="340" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="924" y="340" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="966" y="340" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1008" y="340" width="42" height="42" fill="#f7f7f7"/>
+<rect class="grid" x="1050" y="340" width="42" height="42" fill="#38d65a"/>
+<rect class="grid" x="1092" y="340" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="798" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="840" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="882" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="924" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="966" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1008" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1050" y="382" width="42" height="42" fill="#111111"/>
+<rect class="grid" x="1092" y="382" width="42" height="42" fill="#111111"/>
+<text x="1071.0" y="366.0" text-anchor="middle" font-size="11">Goal</text>
+<text x="54" y="455" font-size="13">Darker cells indicate more visits. Black cells are walls; green cell is the goal.</text>
+</svg>

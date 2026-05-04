@@ -1,0 +1,36 @@
+seed: 42
+device: auto
+
+env:
+  id: MiniGrid-Empty-8x8-v0
+  train_episodes: 100
+  eval_episodes: 50
+  max_steps: 100
+
+data:
+  path: data/transitions_empty8x8.npz
+  num_steps: 50000
+  policy: random
+  validation_split: 0.15
+
+world_model:
+  checkpoint: runs/world_model.pt
+  hidden_dim: 256
+  num_layers: 3
+  batch_size: 256
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  reward_loss_weight: 2.0
+  done_loss_weight: 0.5
+
+mpc:
+  horizon: 5
+  candidates: 512
+  gamma: 0.95
+  temperature: 1.0
+
+eval:
+  output_csv: runs/eval_results.csv
+  figure_path: reports/figures/success_rate.png
+  horizons: [1, 3, 5]

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="576" viewBox="0 0 1024 576">
+  <defs>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#6b3d3d" flood-opacity="0.36"/>
+    </filter>
+    <marker id="arrowRed" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#9f3c61"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#b88a2c"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#61985a"/>
+    </marker>
+    <style>
+      text { font-family: "Noto Serif CJK SC", "Songti SC", "SimSun", serif; fill: #1f1b1d; }
+      .layer-title { font-size: 29px; font-weight: 800; }
+      .node-text { font-size: 30px; font-weight: 800; }
+      .node-text-small { font-size: 28px; font-weight: 800; }
+      .bottom-title { font-size: 28px; font-weight: 800; }
+      .english { font-family: "Times New Roman", Times, serif; font-size: 28px; font-weight: 700; }
+      .top-panel { fill: #fb9489; }
+      .mid-panel { fill: #f5a3d2; }
+      .yellow-panel { fill: #f6df91; }
+      .green-panel { fill: #bfe7bb; }
+      .red-node { fill: #ffd4db; stroke: #a43f50; stroke-width: 3; }
+      .pink-node { fill: #f6b5dc; stroke: #a43b7f; stroke-width: 3; }
+      .yellow-node { fill: #fff3b5; stroke: #a88722; stroke-width: 3; }
+      .green-node { fill: #caf0b5; stroke: #5d9a45; stroke-width: 3; }
+      .arrow-red { stroke: #9f3c61; stroke-width: 4; fill: none; marker-end: url(#arrowRed); }
+      .arrow-gold { stroke: #b88a2c; stroke-width: 4; fill: none; marker-end: url(#arrowGold); }
+      .arrow-green { stroke: #61985a; stroke-width: 4; fill: none; marker-end: url(#arrowGreen); }
+      .icon { stroke: #282020; stroke-width: 2.1; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #282020; stroke: none; }
+    </style>
+  </defs>
+
+  <rect x="8" y="6" width="1008" height="142" rx="12" class="top-panel"/>
+  <rect x="8" y="158" width="1008" height="123" rx="12" class="mid-panel"/>
+  <rect x="8" y="292" width="503" height="264" rx="12" class="yellow-panel"/>
+  <rect x="520" y="292" width="496" height="264" rx="12" class="green-panel"/>
+
+  <text x="512" y="36" text-anchor="middle" class="layer-title">&#x6570;&#x636E;&#x6536;&#x96C6;&#x4E0E;&#x6A21;&#x578B;&#x8BAD;&#x7EC3;&#x5C42;</text>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="50" width="255" height="86" rx="28" class="red-node"/>
+    <rect x="410" y="50" width="258" height="86" rx="28" class="red-node"/>
+    <rect x="765" y="50" width="212" height="86" rx="28" class="red-node"/>
+  </g>
+
+  <g transform="translate(66 72)">
+    <rect x="0" y="0" width="42" height="42" class="icon"/>
+    <path d="M14 0 V42 M28 0 V42 M0 14 H42 M0 28 H42" class="icon"/>
+    <rect x="30" y="24" width="21" height="16" rx="3" class="icon"/>
+    <circle cx="36" cy="32" r="2.3" class="icon-fill"/>
+    <circle cx="45" cy="32" r="2.3" class="icon-fill"/>
+    <path d="M40.5 24 V18 M36 18 H45" class="icon"/>
+  </g>
+  <text x="122" y="105" class="node-text">MiniGrid &#x73AF;&#x5883;</text>
+
+  <g transform="translate(440 66)">
+    <ellipse cx="18" cy="10" rx="17" ry="8" class="icon"/>
+    <path d="M1 10 V45 C1 50 35 50 35 45 V10" class="icon"/>
+    <path d="M1 27 C1 33 35 33 35 27" class="icon"/>
+    <ellipse cx="55" cy="34" rx="15" ry="7" class="icon"/>
+    <path d="M40 34 V55 C40 60 70 60 70 55 V34" class="icon"/>
+    <path d="M40 45 C40 50 70 50 70 45" class="icon"/>
+  </g>
+  <text x="500" y="105" class="node-text">&#x8F6C;&#x79FB;&#x6570;&#x636E;&#x96C6;</text>
+
+  <g transform="translate(786 66)">
+    <path d="M23 15 C18 6 6 8 6 20 C-2 23 -1 38 8 40 C9 52 24 54 29 45" class="icon"/>
+    <path d="M30 45 C38 55 53 50 52 39 C62 36 62 21 53 18 C53 7 40 5 35 15" class="icon"/>
+    <path d="M29 10 V50 M17 20 C25 22 22 30 15 31 M39 20 C32 24 35 32 45 32 M18 41 C24 39 24 34 29 33 M39 41 C35 38 35 34 30 33" class="icon"/>
+  </g>
+  <text x="835" y="105" class="node-text">&#x4E16;&#x754C;&#x6A21;&#x578B;</text>
+
+  <path class="arrow-red" d="M305 93 H398"/>
+  <path class="arrow-red" d="M668 93 H752"/>
+  <path class="arrow-red" d="M870 136 V158 H252 V170"/>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="178" width="366" height="85" rx="25" class="pink-node"/>
+    <rect x="462" y="178" width="214" height="85" rx="25" class="pink-node"/>
+    <rect x="723" y="178" width="255" height="85" rx="25" class="pink-node"/>
+  </g>
+
+  <g transform="translate(62 204)">
+    <rect x="0" y="12" width="40" height="29" rx="6" class="icon"/>
+    <path d="M10 12 L15 4 H28 L33 12" class="icon"/>
+    <circle cx="20" cy="27" r="9" class="icon"/>
+    <circle cx="20" cy="27" r="3" class="icon-fill"/>
+  </g>
+  <text x="112" y="232" class="node-text-small">&#x5F53;&#x524D;&#x89C2;&#x6D4B;&#xFF0B;</text>
+  <g transform="translate(253 196) scale(0.62)">
+    <path d="M23 15 C18 6 6 8 6 20 C-2 23 -1 38 8 40 C9 52 24 54 29 45" class="icon"/>
+    <path d="M30 45 C38 55 53 50 52 39 C62 36 62 21 53 18 C53 7 40 5 35 15" class="icon"/>
+    <path d="M29 10 V50 M17 20 C25 22 22 30 15 31 M39 20 C32 24 35 32 45 32 M18 41 C24 39 24 34 29 33 M39 41 C35 38 35 34 30 33" class="icon"/>
+  </g>
+  <text x="293" y="232" class="node-text-small">&#x4E16;&#x754C;&#x6A21;&#x578B;</text>
+
+  <g transform="translate(486 203)">
+    <path d="M0 7 H32 M0 7 L9 0 M0 7 L9 14" class="icon"/>
+    <path d="M32 34 H0 M32 34 L23 27 M32 34 L23 41" class="icon"/>
+    <path d="M39 2 C56 6 56 23 43 29" class="icon"/>
+    <path d="M43 29 L53 30 L48 20" class="icon"/>
+  </g>
+  <text x="530" y="232" class="node-text">MPC &#x89C4;&#x5212;&#x5668;</text>
+
+  <g transform="translate(748 201)">
+    <path d="M20 31 V10 C20 6 26 6 26 10 V28" class="icon"/>
+    <path d="M26 27 V7 C26 3 32 3 32 7 V27" class="icon"/>
+    <path d="M32 27 V11 C32 7 38 7 38 11 V28" class="icon"/>
+    <path d="M38 29 V17 C38 13 44 13 44 17 V38" class="icon"/>
+    <path d="M20 33 L10 24 C6 20 1 25 5 30 L22 49 C27 55 43 55 51 45" class="icon"/>
+    <circle cx="4" cy="8" r="4" class="icon"/>
+    <path d="M4 0 V16 M-4 8 H12" class="icon"/>
+  </g>
+  <text x="801" y="232" class="node-text-small">&#x6267;&#x884C;&#x9996;&#x4E2A;&#x52A8;&#x4F5C;</text>
+
+  <path class="arrow-red" d="M416 220 H450"/>
+  <path class="arrow-red" d="M676 220 H710"/>
+  <path class="arrow-red" d="M978 220 H1000 V92 H978"/>
+
+  <text x="343" y="326" class="bottom-title">&#x6A21;&#x578B;&#x65B9;&#x6CD5;&#x8BC4;&#x4F30;</text>
+  <text x="833" y="326" class="bottom-title">&#x57FA;&#x7EBF;&#x65B9;&#x6CD5;&#x8BC4;&#x4F30;</text>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="302" width="255" height="85" rx="25" class="yellow-node"/>
+    <rect x="130" y="427" width="325" height="85" rx="25" class="yellow-node"/>
+  </g>
+  <g transform="translate(66 322)">
+    <path d="M0 44 H52" class="icon"/>
+    <path d="M5 44 V8 M19 44 V28 M33 44 V18 M47 44 V3" class="icon"/>
+    <path d="M7 25 L20 17 L32 20 L49 5" class="icon"/>
+    <circle cx="58" cy="15" r="10" class="icon"/>
+    <path d="M53 15 L57 19 L64 10" class="icon"/>
+  </g>
+  <text x="115" y="354" class="node-text">&#x73AF;&#x5883;&#x4EA4;&#x4E92;&#x7ED3;&#x679C;</text>
+
+  <g transform="translate(146 448)">
+    <circle cx="17" cy="17" r="14" class="icon"/>
+    <path d="M10 12 L24 22 M24 12 L10 22" class="icon"/>
+    <ellipse cx="55" cy="22" rx="14" ry="7" class="icon"/>
+    <path d="M41 22 V38 C41 43 69 43 69 38 V22" class="icon"/>
+    <path d="M41 31 C41 36 69 36 69 31" class="icon"/>
+    <path d="M11 47 C28 34 35 46 48 34" class="icon"/>
+  </g>
+  <text x="222" y="480" class="node-text">&#x6210;&#x529F;&#x7387;&#x4E0E;&#x56DE;&#x62A5;&#x8BC4;&#x4F30;</text>
+
+  <path class="arrow-gold" d="M242 263 V285 H238 V302"/>
+  <path class="arrow-gold" d="M305 344 H395 V426"/>
+  <path class="arrow-gold" d="M130 468 H70 V407 H130"/>
+
+  <g filter="url(#shadow)">
+    <rect x="560" y="302" width="250" height="85" rx="25" class="green-node"/>
+    <rect x="670" y="427" width="260" height="85" rx="25" class="green-node"/>
+  </g>
+  <g transform="translate(580 317)">
+    <circle cx="34" cy="28" r="24" class="icon"/>
+    <circle cx="34" cy="28" r="5" class="icon-fill"/>
+    <circle cx="13" cy="19" r="4" class="icon-fill"/>
+    <circle cx="52" cy="12" r="4" class="icon-fill"/>
+    <circle cx="55" cy="42" r="4" class="icon-fill"/>
+    <circle cx="18" cy="47" r="4" class="icon-fill"/>
+    <path d="M17 20 L34 28 L51 13 M34 28 L55 42 M34 28 L19 47" class="icon"/>
+    <text x="27" y="35" font-family="Arial" font-size="14" font-weight="700">RL</text>
+  </g>
+  <text x="638" y="354" class="node-text">PPO baseline</text>
+
+  <g transform="translate(690 448)">
+    <path d="M0 45 H55 M5 45 V11 M19 45 V28 M33 45 V18 M47 45 V5" class="icon"/>
+    <path d="M83 13 H54 M54 13 L64 4 M54 13 L64 22" class="icon"/>
+    <path d="M54 38 H83 M83 38 L73 29 M83 38 L73 47" class="icon"/>
+  </g>
+  <text x="784" y="480" class="node-text">&#x5BF9;&#x6BD4;&#x8BC4;&#x4F30;</text>
+
+  <path class="arrow-green" d="M560 345 H484 V448"/>
+  <path class="arrow-gold" d="M455 470 H658"/>
+  <path class="arrow-green" d="M810 345 H962 V462 H930"/>
+
+  <text x="90" y="545" class="english">Model-based Method Evaluation</text>
+  <text x="630" y="545" class="english">Baseline Method Evaluation</text>
+  <path d="M982 505 L990 526 L1010 534 L990 542 L982 562 L974 542 L954 534 L974 526 Z" fill="#e8fff0" opacity="0.9"/>
+</svg>

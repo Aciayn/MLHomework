@@ -1,0 +1,45 @@
+seed: 1
+device: auto
+env:
+  id: MiniGrid-Empty-8x8-v0
+  train_episodes: 100
+  eval_episodes: 100
+  max_steps: 100
+data:
+  path: data/multiseed/transitions_seed1.npz
+  num_steps: 200000
+  policy: random
+  validation_split: 0.15
+world_model:
+  checkpoint: runs/multiseed/world_model_seed1.pt
+  hidden_dim: 512
+  num_layers: 4
+  batch_size: 512
+  epochs: 60
+  learning_rate: 0.001
+  weight_decay: 1.0e-05
+  reward_loss_weight: 2.0
+  done_loss_weight: 0.5
+mpc:
+  horizon: 5
+  candidates: 2048
+  gamma: 0.95
+  temperature: 1.0
+eval:
+  output_csv: runs/multiseed/eval_seed1.csv
+  figure_path: reports/figures/multiseed_success_seed1.png
+  horizons:
+  - 1
+  - 3
+  - 5
+  - 7
+ppo:
+  total_timesteps: 200000
+  model_path: runs/server_ppo.zip
+  output_csv: runs/server_ppo_eval.csv
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 256
+  gamma: 0.99
+  ent_coef: 0.01
+  append_to_eval_csv: true

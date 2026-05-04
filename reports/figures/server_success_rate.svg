@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{fill:#4c78a8}.line{fill:none;stroke:#f58518;stroke-width:3}.line2{fill:none;stroke:#4c78a8;stroke-width:3}</style>
+<text x="450" y="38" text-anchor="middle" font-size="24">Server Evaluation: Success Rate</text>
+<line class="axis" x1="90" y1="400" x2="850" y2="400"/>
+<line class="axis" x1="90" y1="80" x2="90" y2="400"/>
+<line class="grid" x1="90" y1="400.0" x2="850" y2="400.0"/>
+<text x="78" y="405.0" text-anchor="end" font-size="13">0.0</text>
+<line class="grid" x1="90" y1="336.0" x2="850" y2="336.0"/>
+<text x="78" y="341.0" text-anchor="end" font-size="13">0.2</text>
+<line class="grid" x1="90" y1="272.0" x2="850" y2="272.0"/>
+<text x="78" y="277.0" text-anchor="end" font-size="13">0.4</text>
+<line class="grid" x1="90" y1="208.0" x2="850" y2="208.0"/>
+<text x="78" y="213.0" text-anchor="end" font-size="13">0.6</text>
+<line class="grid" x1="90" y1="144.0" x2="850" y2="144.0"/>
+<text x="78" y="149.0" text-anchor="end" font-size="13">0.8</text>
+<line class="grid" x1="90" y1="80.0" x2="850" y2="80.0"/>
+<text x="78" y="85.0" text-anchor="end" font-size="13">1.0</text>
+<rect class="bar" x="114.06666666666666" y="387.2" width="78.53333333333333" height="12.8"/>
+<text x="153.33333333333331" y="379.2" text-anchor="middle" font-size="13">0.04</text>
+<text x="153.33333333333331" y="428" text-anchor="middle" font-size="12">Random</text>
+<rect class="bar" x="240.73333333333335" y="400.0" width="78.53333333333333" height="0.0"/>
+<text x="280.0" y="392.0" text-anchor="middle" font-size="13">0.00</text>
+<text x="280.0" y="428" text-anchor="middle" font-size="12">WM-MPC-H1</text>
+<rect class="bar" x="367.40000000000003" y="400.0" width="78.53333333333333" height="0.0"/>
+<text x="406.6666666666667" y="392.0" text-anchor="middle" font-size="13">0.00</text>
+<text x="406.6666666666667" y="428" text-anchor="middle" font-size="12">WM-MPC-H3</text>
+<rect class="bar" x="494.06666666666666" y="400.0" width="78.53333333333333" height="0.0"/>
+<text x="533.3333333333334" y="392.0" text-anchor="middle" font-size="13">0.00</text>
+<text x="533.3333333333334" y="428" text-anchor="middle" font-size="12">WM-MPC-H5</text>
+<rect class="bar" x="620.7333333333335" y="307.2" width="78.53333333333333" height="92.8"/>
+<text x="660.0000000000001" y="299.2" text-anchor="middle" font-size="13">0.29</text>
+<text x="660.0000000000001" y="428" text-anchor="middle" font-size="12">WM-MPC-H7</text>
+<rect class="bar" x="747.4000000000001" y="80.0" width="78.53333333333333" height="320.0"/>
+<text x="786.6666666666667" y="72.0" text-anchor="middle" font-size="13">1.00</text>
+<text x="786.6666666666667" y="428" text-anchor="middle" font-size="12">PPO</text>
+<text x="26" y="240" transform="rotate(-90 26 240)" text-anchor="middle" font-size="15">Success Rate</text>
+</svg>

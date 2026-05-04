@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#444"/>
+    </marker>
+    <style>
+      .title { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #222; }
+      .label { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 25px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 21px; fill: #333; }
+      .tiny { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 18px; fill: #444; }
+      .box { fill: #ffffff; stroke: #4b8ca8; stroke-width: 3; rx: 18; }
+      .encoder { fill: #f6efff; stroke: #8c6bb1; stroke-width: 3; rx: 18; }
+      .state { fill: #e6f4fb; stroke: #5aa6c8; stroke-width: 3; rx: 18; }
+      .action { fill: #e8f6ea; stroke: #51a36d; stroke-width: 3; rx: 18; }
+      .head { fill: #fff2d9; stroke: #d99a35; stroke-width: 3; rx: 18; }
+      .loss { fill: #ffe3e3; stroke: #d86a6a; stroke-width: 2.5; rx: 10; }
+      .arrow { stroke: #444; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .orangeArrow { stroke: #d7922d; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .legendText { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 20px; fill: #333; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="900" y="60" text-anchor="middle" class="title">世界模型网络结构（World Model Architecture）</text>
+
+  <!-- MiniGrid image -->
+  <text x="155" y="125" text-anchor="middle" class="label">MiniGrid 图像</text>
+  <text x="155" y="158" text-anchor="middle" class="small">7×7×3</text>
+  <rect x="75" y="190" width="160" height="160" fill="#fafafa" stroke="#333" stroke-width="2"/>
+  <!-- grid cells -->
+  <g>
+    <script type="application/ecmascript"><![CDATA[]]></script>
+    <rect x="75" y="190" width="32" height="32" fill="#f6b26b"/><rect x="107" y="190" width="32" height="32" fill="#6fa8dc"/><rect x="139" y="190" width="32" height="32" fill="#93c47d"/><rect x="171" y="190" width="32" height="32" fill="#ffd966"/><rect x="203" y="190" width="32" height="32" fill="#8e7cc3"/>
+    <rect x="75" y="222" width="32" height="32" fill="#76a5af"/><rect x="107" y="222" width="32" height="32" fill="#e06666"/><rect x="139" y="222" width="32" height="32" fill="#6aa84f"/><rect x="171" y="222" width="32" height="32" fill="#3d85c6"/><rect x="203" y="222" width="32" height="32" fill="#f9cb9c"/>
+    <rect x="75" y="254" width="32" height="32" fill="#b4a7d6"/><rect x="107" y="254" width="32" height="32" fill="#a4c2f4"/><rect x="139" y="254" width="32" height="32" fill="#f6b26b"/><rect x="171" y="254" width="32" height="32" fill="#93c47d"/><rect x="203" y="254" width="32" height="32" fill="#6fa8dc"/>
+    <rect x="75" y="286" width="32" height="32" fill="#ffd966"/><rect x="107" y="286" width="32" height="32" fill="#8e7cc3"/><rect x="139" y="286" width="32" height="32" fill="#76a5af"/><rect x="171" y="286" width="32" height="32" fill="#e06666"/><rect x="203" y="286" width="32" height="32" fill="#6aa84f"/>
+    <rect x="75" y="318" width="32" height="32" fill="#3d85c6"/><rect x="107" y="318" width="32" height="32" fill="#f9cb9c"/><rect x="139" y="318" width="32" height="32" fill="#b4a7d6"/><rect x="171" y="318" width="32" height="32" fill="#a4c2f4"/><rect x="203" y="318" width="32" height="32" fill="#f6b26b"/>
+    <path d="M75 222 H235 M75 254 H235 M75 286 H235 M75 318 H235 M107 190 V350 M139 190 V350 M171 190 V350 M203 190 V350" stroke="#444" stroke-width="1"/>
+  </g>
+
+  <!-- Encoder -->
+  <path class="arrow" d="M250 270 C300 270 300 270 350 270"/>
+  <rect x="365" y="205" width="180" height="130" class="encoder"/>
+  <text x="455" y="260" text-anchor="middle" class="label">Flatten</text>
+  <text x="455" y="295" text-anchor="middle" class="label">+ Normalize</text>
+
+  <!-- encoded vector image -->
+  <path class="arrow" d="M560 270 C600 270 600 270 640 270"/>
+  <rect x="655" y="190" width="60" height="165" class="encoder"/>
+  <circle cx="685" cy="220" r="11" fill="#6b6ecf"/>
+  <circle cx="685" cy="255" r="11" fill="#6b6ecf"/>
+  <circle cx="685" cy="290" r="11" fill="#6b6ecf"/>
+  <circle cx="685" cy="325" r="11" fill="#6b6ecf"/>
+  <text x="685" y="375" text-anchor="middle" class="tiny">图像特征</text>
+
+  <!-- Direction -->
+  <text x="155" y="520" text-anchor="middle" class="label">智能体方向</text>
+  <circle cx="155" cy="440" r="55" fill="#e6f4fb" stroke="#5aa6c8" stroke-width="3"/>
+  <path d="M135 460 L172 418 L160 470 Z" fill="#e06666" stroke="#333" stroke-width="2"/>
+  <circle cx="155" cy="440" r="8" fill="#ffffff" stroke="#333"/>
+  <path class="arrow" d="M250 440 C300 440 300 440 350 440"/>
+  <rect x="365" y="390" width="190" height="100" class="state"/>
+  <text x="460" y="430" text-anchor="middle" class="label">One-hot</text>
+  <text x="460" y="462" text-anchor="middle" class="label">Encoding</text>
+  <path class="arrow" d="M570 440 C610 440 610 440 640 440"/>
+  <rect x="655" y="375" width="60" height="130" class="state"/>
+  <circle cx="685" cy="405" r="10" fill="#5aa6c8"/>
+  <circle cx="685" cy="435" r="10" fill="#5aa6c8"/>
+  <circle cx="685" cy="465" r="10" fill="#5aa6c8"/>
+  <circle cx="685" cy="495" r="10" fill="#5aa6c8"/>
+  <text x="685" y="528" text-anchor="middle" class="tiny">方向特征</text>
+
+  <!-- Action -->
+  <text x="155" y="745" text-anchor="middle" class="label">动作 a<tspan baseline-shift="sub" font-size="16">t</tspan></text>
+  <circle cx="155" cy="655" r="55" fill="#e8f6ea" stroke="#51a36d" stroke-width="3"/>
+  <circle cx="142" cy="630" r="11" fill="#51a36d"/>
+  <path d="M145 642 L162 662 L150 695" stroke="#51a36d" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M159 662 L188 665" stroke="#51a36d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M155 695 L130 720" stroke="#51a36d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path class="arrow" d="M250 655 C300 655 300 655 350 655"/>
+  <rect x="365" y="605" width="190" height="100" class="action"/>
+  <text x="460" y="645" text-anchor="middle" class="label">Action</text>
+  <text x="460" y="678" text-anchor="middle" class="label">Embedding</text>
+  <path class="arrow" d="M570 655 C610 655 610 655 640 655"/>
+  <rect x="655" y="590" width="60" height="130" class="action"/>
+  <circle cx="685" cy="620" r="10" fill="#51a36d"/>
+  <circle cx="685" cy="650" r="10" fill="#51a36d"/>
+  <circle cx="685" cy="680" r="10" fill="#51a36d"/>
+  <circle cx="685" cy="710" r="10" fill="#51a36d"/>
+  <text x="685" y="745" text-anchor="middle" class="tiny">动作特征</text>
+
+  <!-- Concatenation -->
+  <path class="arrow" d="M720 270 C790 270 790 465 850 465"/>
+  <path class="arrow" d="M720 440 C790 440 790 465 850 465"/>
+  <path class="arrow" d="M720 655 C790 655 790 465 850 465"/>
+  <text x="805" y="430" text-anchor="middle" class="label">特征拼接</text>
+  <circle cx="890" cy="465" r="58" fill="#ffffff" stroke="#5aa6c8" stroke-width="4"/>
+  <circle cx="890" cy="465" r="42" fill="#ffffff" stroke="#51a36d" stroke-width="4"/>
+  <text x="890" y="478" text-anchor="middle" font-family="Arial" font-size="54" fill="#333">+</text>
+
+  <!-- MLP -->
+  <path class="arrow" d="M955 465 C1015 465 1015 465 1060 465"/>
+  <rect x="1075" y="190" width="310" height="550" class="box"/>
+  <text x="1230" y="155" text-anchor="middle" class="title">4 层 MLP</text>
+  <text x="1230" y="785" text-anchor="middle" class="label">MLP 主干</text>
+  <text x="1230" y="820" text-anchor="middle" class="small">(hidden dim = 512)</text>
+
+  <!-- MLP nodes -->
+  <g stroke="#4b8ca8" stroke-width="2">
+    <line x1="1140" y1="270" x2="1210" y2="320"/>
+    <line x1="1140" y1="330" x2="1210" y2="390"/>
+    <line x1="1140" y1="390" x2="1210" y2="500"/>
+    <line x1="1140" y1="500" x2="1210" y2="610"/>
+    <line x1="1210" y1="320" x2="1290" y2="270"/>
+    <line x1="1210" y1="390" x2="1290" y2="330"/>
+    <line x1="1210" y1="500" x2="1290" y2="390"/>
+    <line x1="1210" y1="610" x2="1290" y2="500"/>
+  </g>
+  <g>
+    <circle cx="1140" cy="270" r="17" fill="#5aa6c8"/>
+    <circle cx="1140" cy="330" r="17" fill="#5aa6c8"/>
+    <circle cx="1140" cy="390" r="17" fill="#5aa6c8"/>
+    <circle cx="1140" cy="500" r="17" fill="#5aa6c8"/>
+    <circle cx="1140" cy="610" r="17" fill="#5aa6c8"/>
+    <circle cx="1210" cy="320" r="17" fill="#5aa6c8"/>
+    <circle cx="1210" cy="390" r="17" fill="#5aa6c8"/>
+    <circle cx="1210" cy="500" r="17" fill="#5aa6c8"/>
+    <circle cx="1210" cy="610" r="17" fill="#5aa6c8"/>
+    <circle cx="1290" cy="270" r="17" fill="#f6b26b"/>
+    <circle cx="1290" cy="330" r="17" fill="#f6b26b"/>
+    <circle cx="1290" cy="390" r="17" fill="#f6b26b"/>
+    <circle cx="1290" cy="500" r="17" fill="#f6b26b"/>
+    <circle cx="1290" cy="610" r="17" fill="#f6b26b"/>
+  </g>
+
+  <!-- Heads -->
+  <path class="orangeArrow" d="M1390 310 C1440 310 1440 255 1490 255"/>
+  <path class="orangeArrow" d="M1390 465 C1440 465 1440 465 1490 465"/>
+  <path class="orangeArrow" d="M1390 620 C1440 620 1440 675 1490 675"/>
+
+  <rect x="1500" y="165" width="240" height="175" class="head"/>
+  <text x="1620" y="205" text-anchor="middle" class="label">状态预测头</text>
+  <text x="1620" y="238" text-anchor="middle" class="small">ŝ<tspan baseline-shift="sub" font-size="14">t+1</tspan></text>
+  <rect x="1530" y="265" width="90" height="45" class="head"/>
+  <text x="1575" y="295" text-anchor="middle" class="small">预测</text>
+  <rect x="1640" y="265" width="72" height="45" class="loss"/>
+  <text x="1676" y="294" text-anchor="middle" class="small">MSE</text>
+
+  <rect x="1500" y="375" width="240" height="175" class="head"/>
+  <text x="1620" y="415" text-anchor="middle" class="label">奖励预测头</text>
+  <text x="1620" y="448" text-anchor="middle" class="small">r̂<tspan baseline-shift="sub" font-size="14">t</tspan></text>
+  <rect x="1530" y="475" width="90" height="45" class="head"/>
+  <text x="1575" y="505" text-anchor="middle" class="small">预测</text>
+  <rect x="1640" y="475" width="72" height="45" class="loss"/>
+  <text x="1676" y="504" text-anchor="middle" class="small">MSE</text>
+
+  <rect x="1500" y="585" width="240" height="175" class="head"/>
+  <text x="1620" y="625" text-anchor="middle" class="label">终止预测头</text>
+  <text x="1620" y="658" text-anchor="middle" class="small">d̂<tspan baseline-shift="sub" font-size="14">t</tspan></text>
+  <rect x="1530" y="685" width="90" height="45" class="head"/>
+  <text x="1575" y="715" text-anchor="middle" class="small">预测</text>
+  <rect x="1640" y="685" width="72" height="45" class="loss"/>
+  <text x="1676" y="714" text-anchor="middle" class="small">BCE</text>
+
+  <!-- Legend -->
+  <rect x="620" y="910" width="34" height="18" class="encoder"/>
+  <text x="665" y="925" class="legendText">编码器</text>
+  <rect x="785" y="910" width="34" height="18" class="box"/>
+  <text x="830" y="925" class="legendText">核心网络</text>
+  <rect x="970" y="910" width="34" height="18" class="head"/>
+  <text x="1015" y="925" class="legendText">输出预测头</text>
+</svg>

@@ -1,0 +1,10 @@
+torch
+gymnasium
+minigrid
+numpy
+matplotlib
+pandas
+tqdm
+pyyaml
+tensorboard
+stable-baselines3

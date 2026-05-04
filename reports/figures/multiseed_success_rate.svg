@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{fill:#4c78a8}.line{fill:none;stroke:#f58518;stroke-width:3}.line2{fill:none;stroke:#4c78a8;stroke-width:3}</style>
+<text x="450" y="38" text-anchor="middle" font-size="24">Multi-Seed Success Rate</text>
+<line class="axis" x1="90" y1="400" x2="850" y2="400"/>
+<line class="axis" x1="90" y1="80" x2="90" y2="400"/>
+<line class="grid" x1="90" y1="400.0" x2="850" y2="400.0"/>
+<text x="78" y="405.0" text-anchor="end" font-size="13">0.0</text>
+<line class="grid" x1="90" y1="336.0" x2="850" y2="336.0"/>
+<text x="78" y="341.0" text-anchor="end" font-size="13">0.2</text>
+<line class="grid" x1="90" y1="272.0" x2="850" y2="272.0"/>
+<text x="78" y="277.0" text-anchor="end" font-size="13">0.4</text>
+<line class="grid" x1="90" y1="208.0" x2="850" y2="208.0"/>
+<text x="78" y="213.0" text-anchor="end" font-size="13">0.6</text>
+<line class="grid" x1="90" y1="144.0" x2="850" y2="144.0"/>
+<text x="78" y="149.0" text-anchor="end" font-size="13">0.8</text>
+<line class="grid" x1="90" y1="80.0" x2="850" y2="80.0"/>
+<text x="78" y="85.0" text-anchor="end" font-size="13">1.0</text>
+<rect class="bar" x="118.88" y="389.3333333333333" width="94.24" height="10.666666666666666"/>
+<line class="axis" x1="166.0" y1="387.824838866802" x2="166.0" y2="390.84182779986463"/>
+<line class="axis" x1="158.0" y1="387.824838866802" x2="174.0" y2="387.824838866802"/>
+<line class="axis" x1="158.0" y1="390.84182779986463" x2="174.0" y2="390.84182779986463"/>
+<text x="166.0" y="379.824838866802" text-anchor="middle" font-size="13">0.03</text>
+<text x="166.0" y="428" text-anchor="middle" font-size="12">Random</text>
+<rect class="bar" x="270.88" y="400.0" width="94.24" height="0.0"/>
+<line class="axis" x1="318.0" y1="400.0" x2="318.0" y2="400"/>
+<line class="axis" x1="310.0" y1="400.0" x2="326.0" y2="400.0"/>
+<line class="axis" x1="310.0" y1="400" x2="326.0" y2="400"/>
+<text x="318.0" y="392.0" text-anchor="middle" font-size="13">0.00</text>
+<text x="318.0" y="428" text-anchor="middle" font-size="12">WM-MPC-H1</text>
+<rect class="bar" x="422.88" y="400.0" width="94.24" height="0.0"/>
+<line class="axis" x1="470.0" y1="400.0" x2="470.0" y2="400"/>
+<line class="axis" x1="462.0" y1="400.0" x2="478.0" y2="400.0"/>
+<line class="axis" x1="462.0" y1="400" x2="478.0" y2="400"/>
+<text x="470.0" y="392.0" text-anchor="middle" font-size="13">0.00</text>
+<text x="470.0" y="428" text-anchor="middle" font-size="12">WM-MPC-H3</text>
+<rect class="bar" x="574.88" y="396.8" width="94.24" height="3.2"/>
+<line class="axis" x1="622.0" y1="392.2745166004061" x2="622.0" y2="400"/>
+<line class="axis" x1="614.0" y1="392.2745166004061" x2="630.0" y2="392.2745166004061"/>
+<line class="axis" x1="614.0" y1="400" x2="630.0" y2="400"/>
+<text x="622.0" y="384.2745166004061" text-anchor="middle" font-size="13">0.01</text>
+<text x="622.0" y="428" text-anchor="middle" font-size="12">WM-MPC-H5</text>
+<rect class="bar" x="726.88" y="343.4666666666667" width="94.24" height="56.53333333333333"/>
+<line class="axis" x1="774.0" y1="303.2999031813062" x2="774.0" y2="383.6334301520272"/>
+<line class="axis" x1="766.0" y1="303.2999031813062" x2="782.0" y2="303.2999031813062"/>
+<line class="axis" x1="766.0" y1="383.6334301520272" x2="782.0" y2="383.6334301520272"/>
+<text x="774.0" y="295.2999031813062" text-anchor="middle" font-size="13">0.18</text>
+<text x="774.0" y="428" text-anchor="middle" font-size="12">WM-MPC-H7</text>
+<text x="26" y="240" transform="rotate(-90 26 240)" text-anchor="middle" font-size="15">Success Rate</text>
+</svg>
