@@ -1,6 +1,6 @@
 # Learning to Imagine: MiniGrid World Model Planning
 
-这是一个机器学习课程项目：在 MiniGrid 环境中训练轻量级世界模型，并用 shooting-style MPC 在模型内部进行短期想象规划。项目重点展示环境交互数据采集、世界模型学习、规划控制、消融实验和论文式报告写作。
+这是我的机器学习课程项目😁：在 MiniGrid 环境中训练轻量级世界模型，并用 shooting-style MPC 在模型内部进行短期想象规划。项目重点展示环境交互数据采集、世界模型学习、规划控制、消融实验。
 
 ## 研究问题
 
