@@ -1,6 +1,6 @@
 # Learning to Imagine: MiniGrid World Model Planning
 
-这是一个机器学习课程项目：在 MiniGrid 环境中训练轻量级世界模型，并用 shooting-style MPC 在模型内部进行短期想象规划。项目不依赖大模型 API，重点展示环境交互数据采集、世界模型学习、规划控制、消融实验和论文式报告写作。
+这是一个机器学习课程项目：在 MiniGrid 环境中训练轻量级世界模型，并用 shooting-style MPC 在模型内部进行短期想象规划。项目重点展示环境交互数据采集、世界模型学习、规划控制、消融实验和论文式报告写作。
 
 ## 研究问题
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## 运行流程
 
-如果你在服务器上跑完整实验，推荐直接使用服务器配置：
+服务器完整实验推荐使用服务器配置：
 
 ```bash
 bash scripts/run_server_experiment.sh
@@ -110,19 +110,18 @@ python scripts/render_rollout.py --config configs/default.yaml --agent mpc
 - `reports/figures/trajectory.png`：策略 rollout 可视化。
 - `reports/figures/server_world_model_loss.png`、`reports/figures/server_success_rate.png`、`reports/figures/server_trajectory.png`：服务器实验图表。
 - `reports/figures/server_trajectory_random.png`、`reports/figures/server_trajectory_wm_mpc_h7.png`、`reports/figures/server_trajectory_ppo.png`：三种策略轨迹可视化。
-- `reports/paper.md`：论文式实验报告草稿。
+- `reports/paper.md`：论文式实验报告。
 
-## 服务器结果回传
+## 结果整理
 
-补充实验完成后，请把以下文件下载回本地并发给我继续整理报告：
+实验完成后，可重点检查以下文件：
 
-- `runs/multiseed_raw.csv`
-- `runs/multiseed_summary.csv`
-- `reports/figures/server_trajectory_random.png`
-- `reports/figures/server_trajectory_wm_mpc_h7.png`
-- `reports/figures/server_trajectory_ppo.png`
-
-如果只跑了较小规模多 seed 实验，也可以照样回传这两个 CSV，我会在报告里注明实验规模。
+- `runs/server_eval_results.csv`：主实验结果。
+- `runs/multiseed_raw.csv`：多随机种子原始结果。
+- `runs/multiseed_summary.csv`：多随机种子汇总结果。
+- `reports/figures/server_trajectory_random.png`：Random 轨迹图。
+- `reports/figures/server_trajectory_wm_mpc_h7.png`：WM-MPC-H7 轨迹图。
+- `reports/figures/server_trajectory_ppo.png`：PPO 轨迹图。
 
 ## 最小实验配置
 

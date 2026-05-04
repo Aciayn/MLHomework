@@ -48,7 +48,7 @@ def collect_transitions(
     policy: str = "random",
 ) -> dict[str, float]:
     if policy != "random":
-        raise ValueError("Only the random data-collection policy is implemented in the minimal project.")
+        raise ValueError("Only the random data-collection policy is supported by this collector.")
 
     env = make_env(env_id, seed=seed)
     rng = np.random.default_rng(seed)
