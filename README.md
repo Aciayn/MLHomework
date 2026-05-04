@@ -125,4 +125,4 @@ python scripts/render_rollout.py --config configs/default.yaml --agent mpc
 
 ## 最小实验配置
 
-默认使用 `MiniGrid-Empty-8x8-v0`，因为它足够轻量，便于一周内完成完整闭环。若需要扩展，可以改成 DoorKey 或 FourRooms，但这些任务更依赖探索，通常需要更强的数据采集策略或 model-free baseline。
+默认使用 `MiniGrid-Empty-8x8-v0`，因为它足够轻量。若需要扩展，可以改成 DoorKey 或 FourRooms，但这些任务更依赖探索，通常需要更强的数据采集策略或 model-free baseline，这也是本项目后续的发展方向之一～
