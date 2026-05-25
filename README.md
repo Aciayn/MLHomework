@@ -110,7 +110,6 @@ python scripts/render_rollout.py --config configs/default.yaml --agent mpc
 - `reports/figures/trajectory.png`：策略 rollout 可视化。
 - `reports/figures/server_world_model_loss.png`、`reports/figures/server_success_rate.png`、`reports/figures/server_trajectory.png`：服务器实验图表。
 - `reports/figures/server_trajectory_random.png`、`reports/figures/server_trajectory_wm_mpc_h7.png`、`reports/figures/server_trajectory_ppo.png`：三种策略轨迹可视化。
-- `reports/paper.md`：论文式实验报告。
 
 ## 结果整理
 
